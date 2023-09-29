@@ -1,0 +1,43 @@
+CN (Customer Needs | What are your needs?)
+    Need a random pwd generator
+    Needs to be able to adjust amount of characters
+    Needs to include letters and numbers and special characters
+    Needs to not retain pwds for security purposes
+    Needs the ability to generate more than one if needed but default to one
+    Needs to be extremely lightweight
+    Needs to be universal
+    Needs to have sharing option (send to a friend, quick copy and paste features for starters)
+    Needs to have a simple UI (half asleep five-year-old)
+
+CF (Customer Filtration | What are the most critical?)
+    Randomness
+    Security (no pwd retention, hardening of pwd generation method for starters)
+    Accessibility (sharing, UI simplicity, lightweight)
+
+    All others are 2nd
+
+CS (Concept Sketch | Basic Layout of Design)
+    Keep it to a python window for the moment/terminal
+    When generating, use a randomness function but then encrypt it via AES256 and then let the terminal decrypt it (too messy out fo the gate?)
+    Have a drop down/separate if character customization needed but have a prompt for how many characters the pwd needs (ticking slider only if have gui. ticking like an Apple slider)
+    For sharing, have it automatically copied to clipboard w/visual confirmation and have an option to share it to SMS, other apps etc...
+    GUI or terminal? (HTML GUI?)
+        Python to start but HTML down the line due to easy accessibility and make sure the page can open with even the slowest of connections)
+        That way the user doesnt need to install any programs, sign up for any acct, can access it on any device, with the only downside of needing a internet connection and to harden the source code from inspect element
+    For the customization stuff, let it have the following: character exclusions, number of pwds to be generated (it for the moment)
+    So prompts will be (with options already shown of how many pwds are being created with what type of characters): how many characters in the pwd, generated pwd and automaticallly copied to clipboard, Press S to Share E to Exit or R to restart (yes <-- I like it. E for exit instead of Q cause E easier to type in relation to R and S keys)
+
+CP (Customer Prototype | Test)
+    Alright, lets rock and roll
+
+CF (Customer Feedback | Criticism)
+
+
+Reiterate
+
+
+***In Progress Design Notes***:
+Need a pwd character amount limit of 1,000
+Need a list reset for character customization
+Need a character customization bypass from intro (done)
+Need an option for upper and lower case letters
