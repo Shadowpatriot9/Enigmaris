@@ -11,14 +11,14 @@ trying to steal it lol)
 #       Dependencies
 # ================================
 
-import string
-import secrets
-import time
 import os
+import secrets
 import smtplib
-import pyperclip as pc
-from email.mime.text import MIMEText
+import string
+import time
 from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import pyperclip as pc
 
 # ================================
 #       Global Variables
@@ -152,7 +152,7 @@ def final_options():  # Options for users after the main program has executed/co
 # ================================
 
 print("\n===================================")  # Intro Tagline
-print("\n'Welcome to Enigmaris'")
+print("\n'      Welcome to Enigmaris'")
 print("\n===================================")
 
 while True:
