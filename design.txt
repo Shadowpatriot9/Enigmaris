@@ -37,7 +37,7 @@ Reiterate
 
 
 ***In Progress Design Notes***:
-Need a pwd character amount limit of 1,000
-Need a list reset for character customization
+Need a pwd character amount limit of 100 (done)
+Need a list reset for character customization (done)
 Need a character customization bypass from intro (done)
 Need an option for upper and lower case letters
