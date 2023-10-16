@@ -41,3 +41,6 @@ Need a pwd character amount limit of 100 (done)
 Need a list reset for character customization (done)
 Need a character customization bypass from intro (done)
 Need an option for upper and lower case letters
+Input error handling
+Option for multiple pwd generation
+Option for encrypting pwd after generation to secure certificate file

@@ -3,5 +3,5 @@
 </picture>
 
 # Enigmaris
-The coolest pwd generator you ever seen (maybe)
+The coolest pwd generator you've ever seen (maybe)
 

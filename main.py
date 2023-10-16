@@ -18,6 +18,7 @@ import string
 import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
 import pyperclip as pc
 
 # ================================
@@ -130,7 +131,7 @@ def final_options():  # Options for users after the main program has executed/co
             share_via_email(pwd_final, recipient_email)
 
         elif sharing_option == "t":  # TXT File Export Option
-            filename = f"## Generated Password ## {date}.txt"
+            filename = f"Pwd_{date}.txt"
 
             def export_text_file(pwd_final, filename):
                 desktop_path = os.path.expanduser("~/Desktop")
@@ -140,7 +141,8 @@ def final_options():  # Options for users after the main program has executed/co
                     file.write(pwd_final)
             # Usage:
             export_text_file(pwd_final, filename)
-            print("\nText File Saved to Desktop")
+            print("\n***!Text File Saved to Desktop!***")
+            print("\n===================================")
 
     if final_choice == "e":
         quit()
@@ -152,7 +154,7 @@ def final_options():  # Options for users after the main program has executed/co
 # ================================
 
 print("\n===================================")  # Intro Tagline
-print("\n'      Welcome to Enigmaris'")
+print("\n      'Welcome to Enigmaris'")
 print("\n===================================")
 
 while True:
